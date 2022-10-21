@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website's icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- Website title -->
+    <title>Frontend Mentor | Manage landing page</title>
+    <!-- HTML5shiv -->
+      <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <![endif]-->
+    <!-- Style CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@300&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS A11y library /slider/ testmonials -->
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    
+  </head>
+  <body>
+    <!-- Start background when click on element that have class ".navigation-controler" -->
+    <span class="shadow-background-navigtion-Mobile" aria-hidden="true"></span>
+    <!-- End background when click on element that have class ".navigation-controler" -->
+    <!-- Start header -->
+    <header class="primary-header">
+      <div class="container flex">
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+        <nav class="primary_navigation | text-primary fw-bold fs-nav">
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button">Get Started</button>
+        <div class="navigation-controler">
+          <img src="images/icon-hamburger.svg" class="navigation-opener" alt="open navigation">
+          <img src="images/icon-close.svg" class="navigation-closer  navigation-controler_close" alt="close navigation" aria-hidden="true">
+        </div>
+      </div>
+    </header>
+    <!-- End header  -->
+    <!-- Start main  -->
+    <main>
+      <!-- Start block1  -->
+      <div class="block1 | text-center-inMobiles">
+        <div class="container | flex flex-wrap-reverse-center ">
+          <section>
+            <header class="text-primary fw-bold fs-big-heading">
+              Bring everyone together to build better products.
+            </header>
+            <p class="text-accent-200 fw-regurlar fs-body">
+              Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+            </p>
+            <button class="button">Get Started</button>
+          </section>
+          <span class="before-intro-img">
+            <img src="images/illustration-intro.svg" alt="" >
+          </span>
+        </div>
+      </div>
+      <!-- End block1  -->
+      <!-- Start block2  -->
+      <div class="block2">
+        <div class="container | flex flex-wrap-center">
+          <section class="before-blob | text-center-inMobiles">
+            <header class="text-primary fw-bold fs-mini-heading">
+              What's different about Manage?
+            </header>
+            <p class="text-accent-200 fw-regurlar fs-body">
+              Manage provides all the funtionality your team needs, without the complexity. Our sofrware is tailor-made for moder digital product teams.
+            </p>
+          </section>
+
+          <div>
+            <ul>   
+              <li>
+                <header class="text-primary fw-bold fs-body">
+                  Track company-wide progress
+                </header>
+                <p class="text-accent-200 fw-regurlar fs-body">
+                  See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details Never lose sight of the bigger picture again
+                </p>
+              </li>  
+              <li>  
+                <header class="text-primary fw-bold fs-body">
+                  Advanced buit-in reports
+                </header>
+                <p class="text-accent-200 fw-regurlar fs-body">
+                  set internal delivery estimates and track progress toward company goals. Our cutomisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                </p>
+              </li>   
+              <li>
+                <header class="text-primary fw-bold fs-body">
+                  Everything you need in on place
+                </header>
+                <p class="text-accent-200 fw-regurlar fs-body">
+                  Stop jumping form one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productifity solution.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End block2  -->
+      <!-- Start testmonials -->
+      <div class="testmonial | text-align-center">
+        <header class="text-primary fw-bold fs-mini-heading">
+          What they've said
+        </header>
+        <!-- testmonial -->
+        <ul class="slider">
+          <li>
+            <img src="images/avatar-anisha.png" alt="anisha photo">
+            <section>
+              <header>Anisha Li</header>
+              <p>
+                “Manage has supercharged out team's workflow.
+                The ability to maintain visibility on larger 
+                milestones at all times keeps everyone motivated.”
+              </p>
+            </section>
+          </li>
+          <li>
+            <img src="images/avatar-ali.png" alt="ali photo">
+            <section>
+              <header>Ali Bravo</header>
+              <p>
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel
+                confusion and everyone is much more focused.”
+              </p>
+            </section>
+          </li>
+          <li>
+            <img src="images/avatar-richard.png" alt="richard photo">
+            <section>
+              <header>Ricahrd Watts</header>
+              <p>
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused.I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </section>
+          </li>
+          <li>
+            <img src="images/avatar-shanai.png" alt="richard photo">
+            <section>
+              <header>Shanai Gough</header>
+              <p>
+                “Their software allows us to track, manage and collaborate on our
+                projects from anywhere. It keeps the whole team
+                in-sync without being intrusive.”
+              </p>
+            </section>
+          </li>
+        </ul>
+        <button class="button">Get Started</button>
+      </div>
+      <!-- End testmonials  -->
+      <!-- Start semi-footer  -->
+      <div class="semi-footer bg-accent-400 ">
+        <div class="container flex flex-wrap-center ">
+          <p class="fs-mini-heading fw-bold ">
+            Simplify how your team work today
+          </p>
+          <button class="reverse-button">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <!-- End semi-footer  -->
+    </main>
+    <!-- End main  -->
+    <!-- Strat footer  -->
+    <footer class="footer | bg-neutral-900">
+      <div class="container flex flex-wrap-reverse-center">
+        <!-- Start footer_block1 -->
+        <div class="footer_block1">
+          <p class="footer_copyright | text-accent-200">Copyright 2022.All rights reserved</p> <!-- style display is none  -->
+          <img src="images/white-logo.svg" alt="logo">
+          <div class="social-media-icons">
+            <svg class="icon">
+              <use xlink:href="images/icon-facebook.svg#icon-facebook"></use>
+            </svg>
+            <svg class="icon">
+              <use xlink:href="images/icon-youtube.svg#icon-youtube"></use>
+            </svg>
+            <svg class="icon">
+              <use xlink:href="images/icon-twitter.svg#icon-twitter"></use>
+            </svg>
+            <svg class="icon">
+              <use xlink:href="images/icon-pinterest.svg#icon-pinterest"></use>
+            </svg>            
+            <svg class="icon">
+              <use xlink:href="images/icon-instagram.svg#icon-instagram"></use>
+            </svg>
+          </div>
+        </div>
+        <!-- End footer_block1 -->
+        <!-- Start footer_block2 //nav -->
+        <nav class="footer_block2">
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End footer block2 //nav  -->
+        <!-- Start footer_block3  -->
+        <div class="footer_block3">
+          <form class="footer_input">
+            <div class="input_email">
+              <input type="text" class="email_input" id="email" placeholder="Updates in your inbox...">
+              <label for="email">please insert a valid email</label>
+            </div>
+            <button class="submit_email | button" >Go</button>
+          </form>
+          <p class="footer_copyright | text-accent-200">Copyright 2022.All rights reserved</p>
+        </div>
+        <!-- End footer_block3  -->
+      </div>
+    </footer>
+    <!-- End footer  -->
+
+
+
+
+    
+    <!-- JavaScript A11y library /slider/ testmonials -->
+    <script src="https://unpkg.com/a11y-slider@0.4.15/dist/a11y-slider.js"></script>
+    <!-- JavaScript main.js file -->
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
