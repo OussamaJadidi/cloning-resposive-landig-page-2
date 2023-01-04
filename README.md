@@ -10,6 +10,7 @@
 - I used CUBE and BEM css megholdogies writing that code
 ## Screen shots
 ### Desktop screenshot
-![Capture web_4-1-2023_153019_](https://user-images.githubusercontent.com/100240279/210577450-e414fe7c-2705-4269-b1e1-adc1c0bdc130.jpeg)
+![WhatsApp Image 2022-12-26 à 17 42 02](https://user-images.githubusercontent.com/100240279/210578053-5d8530bc-c9f6-4871-a0e4-a9086da49f75.jpg)
 ### Mobile screenshot
 ![WhatsApp Image 2022-12-26 à 17 41 57](https://user-images.githubusercontent.com/100240279/210574327-99ba2b62-d551-428f-a2c4-fd93bd9775fb.jpg)
+
