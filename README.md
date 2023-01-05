@@ -8,7 +8,7 @@
   CSS3 (Grid and Flex-Box)
   and a little bit of javascirpt
 - I used CUBE and BEM css megholdogies writing that code
-## Screen shots
+## Screenshots
 ### Desktop screenshot
 ![WhatsApp Image 2022-12-26 à 17 42 02](https://user-images.githubusercontent.com/100240279/210578053-5d8530bc-c9f6-4871-a0e4-a9086da49f75.jpg)
 ### Mobile screenshot
